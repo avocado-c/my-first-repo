@@ -1,0 +1,239 @@
+body{
+    background-color:#F5F5F5;
+}
+
+h1{
+    color:#2C2A2B;
+}
+
+h3{
+    font-family: "Georgia", serif;
+}
+
+p{
+    font-family: "Georgia", serif;
+    font-size:20px;
+}
+
+
+
+
+.hero-image{
+    background: url("https://th.bing.com/th/id/OIP.l0dnSUWgPiWbQJnQ5Vy74AHaEc?w=312&h=187&c=7&r=0&o=5&pid=1.7");
+    background-size:cover;
+    height: 400px;
+    
+    
+}
+
+.page-header h2{
+    font-family: "DMSerifText", "STIXTwoText", serif;
+    font-size:50px;
+}
+
+
+.page-header h1{
+    font-family: "DMSerifText", "STIXTwoText", serif;
+    font-size:70px;
+}
+
+
+.center {
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.hero-text h1{
+    text-align:center;
+    color:#2C2A2B;
+    font-size:90px;
+    font-family: "DMSerifText", "STIXTwoText", serif;
+    max-height:300px;
+    
+    
+}
+
+/*navbar stuff*/
+.logo{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+
+.navbar{
+    background-color:#8E917D;
+}
+
+
+#nav-head{
+    color:#2C2A2B;
+}
+
+.nav.navbar-nav.navbar-right li a{
+    color:#2C2A2B;
+    
+}
+
+
+.nav.navbar-nav.navbar-right li a:hover{
+    background-color:#959886;
+}
+
+#nav-head:hover{
+    background-color:#959886;
+}
+
+
+/*contact page stuff*/
+.contact-links a{
+    color:#7E773A;
+}
+
+.con-jumbo{
+    background-color:#ECECE9;
+}
+
+
+/*carousel stuff*/
+.carousel {
+  height: 400px;
+  width:700px;
+  margin-bottom: 60px;
+  
+ 
+  
+  /*margin-right:30%;*/
+  /*margin-left:30%;*/
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  color:#2C2A2B;
+  font-size:14px;
+  font-family: "Georgia", serif; 
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color:#8E917D;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+  display:block;
+  margin:auto;
+}
+
+/*gallery page stuff*/
+
+.gal-jumbotron h1{
+    color:#2C2A2B;
+    font-family: "DMSerifText", "STIXTwoText", serif;
+    text-align:center;
+    
+}
+
+.gal-jumbotron{
+    background-color:#C2C3B9;
+    width:95%;
+    border: 5px solid;
+    border-color:#A8AA9B;
+}
+
+.thumbnail{
+    height:400px;
+    width:30%;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+
+
+.thumbnail img{
+    height:200px;
+    width:100%;
+}
+
+.thumbnail h3{
+    text-align:center;
+    color:#2C2A2B;
+}
+
+.thumbnail h4{
+    text-align:center;
+    color:#2C2A2B;
+    font-size:14px;
+    font-family: "Georgia", serif;
+}
+
+/*services page stuff*/
+
+.ser-jumbotron{
+    font-family: "DMSerifText", "STIXTwoText", serif;
+    background-color:#C2C3B9;
+    border: 5px solid;
+    border-color:#A8AA9B;
+  
+}
+
+
+.ser-button{
+    background-color:#8E917D;
+}
+
+.btn .btn-primary .ser-button:hover{
+    background-color:#8E917D;
+}
+
+
+
+/*about us page stuff*/
+.about-header{
+    text-align:center;
+}
+
+.about-header h1{
+    font-family: "DMSerifText", "STIXTwoText", serif;
+    font-size:50px;
+}
+
+.mission-stat h2{
+    text-align:center;
+    color:#2C2A2B;
+    font-family: "DMSerifText", "STIXTwoText", serif;
+}
+
+.mission-stat h4{
+    text-align:center;
+    color:#2C2A2B;
+    font-family: "DMSerifText", "STIXTwoText", serif;
+}
+
+.ab-jumbotron{
+    background-color:#C2C3B9;
+    border: 5px solid;
+    border-color:#A8AA9B;
+}
+
+
+
+
+
+/*@font-face{*/
+/*    font-family:DMSerifText;*/
+/*    src:url(DMSerifText-regular.ttf);*/
+/*}*/
+
+/*@font-face{*/
+/*    font-family:STIXTwoText;*/
+/*    src:url(STIXTwoText-VariableFront_wght.ttf);*/
+/*}*/
